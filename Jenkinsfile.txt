@@ -14,7 +14,7 @@ pipeline {
 		}
 		stage ('package') {
 			steps {
-				echo 'Creating package..'
+				echo 'Creating package.. checking webhook3'
 			}
 		}
 		stage ('deploy') {
